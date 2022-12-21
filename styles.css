@@ -1,0 +1,34 @@
+header,p,#inp-div,#btn-div,#output-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+header{
+    font-size:30px;
+    padding-top: 10rem;
+}
+
+p,input,button{
+    font-size: 22px;
+}
+
+input{
+    width: 150px;
+    border: 3px solid blueviolet;
+    border-radius: 0.5em;
+
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 2em;
+    border-radius: 0.5rem;
+}
+
+#output-div{
+    font-size: 30px;
+    margin-top: 2em;
+}
+
